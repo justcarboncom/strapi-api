@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "Teams",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "Surname": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "LinkedInUrl": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

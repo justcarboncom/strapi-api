@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_videos",
+  "info": {
+    "singularName": "about-us-video",
+    "pluralName": "about-us-videos",
+    "displayName": "AboutUsVideo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Url": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "explorers",
+  "info": {
+    "singularName": "explorer",
+    "pluralName": "explorers",
+    "displayName": "Explorer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    }
+  }
+}

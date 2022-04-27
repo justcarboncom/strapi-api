@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "just_carbon_explorers",
+  "info": {
+    "singularName": "just-carbon-explorer",
+    "pluralName": "just-carbon-explorers",
+    "displayName": "JustCarbonExplorer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "BodyText": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "custodians_team_titles",
+  "info": {
+    "singularName": "custodians-team-title",
+    "pluralName": "custodians-team-titles",
+    "displayName": "CustodiansTeamTitle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

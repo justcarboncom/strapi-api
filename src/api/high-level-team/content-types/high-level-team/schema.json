@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "high_level_teams",
+  "info": {
+    "singularName": "high-level-team",
+    "pluralName": "high-level-teams",
+    "displayName": "HighLevelTeam",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Surname": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "LinkedInUrl": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

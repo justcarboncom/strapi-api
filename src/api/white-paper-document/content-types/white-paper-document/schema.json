@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "white_paper_documents",
+  "info": {
+    "singularName": "white-paper-document",
+    "pluralName": "white-paper-documents",
+    "displayName": "WhitePaperDocument",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "WhitePaper": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

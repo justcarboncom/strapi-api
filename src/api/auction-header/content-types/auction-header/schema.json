@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "auction_headers",
+  "info": {
+    "singularName": "auction-header",
+    "pluralName": "auction-headers",
+    "displayName": "AuctionHeader"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    }
+  }
+}

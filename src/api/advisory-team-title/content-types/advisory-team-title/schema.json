@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "advisory_team_titles",
+  "info": {
+    "singularName": "advisory-team-title",
+    "pluralName": "advisory-team-titles",
+    "displayName": "AdvisoryTeamTitle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_team_titles",
+  "info": {
+    "singularName": "social-team-title",
+    "pluralName": "social-team-titles",
+    "displayName": "SocialTeamTitle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

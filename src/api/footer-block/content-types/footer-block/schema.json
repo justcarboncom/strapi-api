@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_blocks",
+  "info": {
+    "singularName": "footer-block",
+    "pluralName": "footer-blocks",
+    "displayName": "FooterBlock",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Content": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
