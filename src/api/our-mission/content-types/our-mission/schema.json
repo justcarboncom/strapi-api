@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_missions",
+  "info": {
+    "singularName": "our-mission",
+    "pluralName": "our-missions",
+    "displayName": "Our Mission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    }
+  }
+}
