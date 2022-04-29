@@ -1,3 +1,8 @@
+/**
+ * Run as a standalone node process in the EC2 instance using Systemd & Pm2
+ * to enable automatic CI/CD through Github
+ */
+
 var secret = 'your_secret_key'; // Your secret key from Settings in GitHub
 var repo = '~/path-to-strapi-root-folder/'; // path to the root of your Strapi project on server
 
@@ -6,7 +11,7 @@ const crypto = require('crypto');
 const exec = require('child_process').exec;
 
 const PM2_CMD = 'cd ~ && pm2 startOrRestart ecosystem.config.js';
-const TARGET_BRANCH = 'dev';
+const TARGET_BRANCH = 'dev'; // branch to trigger an update
 
 http
   .createServer(function(req, res) {
