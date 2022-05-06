@@ -40,6 +40,14 @@ May 01 02:52:42 ip-172-31-84-49 systemd[1]: Started Github webhook.
 
 Unless there is a recent pull, in which case the github status will be shown. The `webhook.js` file is included in this repo under `ec2-webhook.js`, for you to test locally. Run the webhook using node, then use an API testing tool of choice, like Postman, to check everything is working okay. You can get sample request payloads from the github webhook under `settings` in this repo.
 
+When debugging, ensure the webhook fires by SSHing into the instance, and checking the repo:
+```sh
+cd strapi-api
+ls src/api
+# new files should appear
+git branch
+# should be main or dev depending
+```
 
 ### `develop`
 
