@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_contents",
+  "info": {
+    "singularName": "test-content",
+    "pluralName": "test-contents",
+    "displayName": "TestContent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
