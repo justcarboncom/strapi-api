@@ -1,9 +1,6 @@
 ## ⚙️ Deployment
 
 Full details on the AWS deploy are found [here](https://www.notion.so/jordaniza/Strapi-AWS-Setup-1caebcd1610943be9cd625ea4c1104e2).
-# Devops in Devops file
-
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
 The `env.example` displays the various config settings required to build the application locally. For AWS:
 - Database refers to the Amazon RDS service you want to connect to (please register an account to connect to the DB.
