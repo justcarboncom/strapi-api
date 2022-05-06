@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_buttons",
+  "info": {
+    "singularName": "home-page-button",
+    "pluralName": "home-page-buttons",
+    "displayName": "HomePageButton",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Link": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
