@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test-block",
     "pluralName": "test-blocks",
-    "displayName": "TestBlock"
+    "displayName": "TestBlock",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "BigTextField": {
+    "NewTextField": {
       "pluginOptions": {
         "i18n": {
           "localized": true
