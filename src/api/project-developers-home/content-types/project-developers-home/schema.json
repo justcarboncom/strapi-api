@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_developers_homes",
+  "info": {
+    "singularName": "project-developers-home",
+    "pluralName": "project-developers-homes",
+    "displayName": "ProjectDevelopersHome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Content": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
