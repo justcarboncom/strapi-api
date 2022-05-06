@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "jordan_tests",
+  "info": {
+    "singularName": "jordan-test",
+    "pluralName": "jordan-tests",
+    "displayName": "JordanTest"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TEST": {
+      "type": "string"
+    }
+  }
+}
