@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test-content",
     "pluralName": "test-contents",
-    "displayName": "TestContent"
+    "displayName": "TestContent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "test": {
       "type": "string"
+    },
+    "EmailTest": {
+      "type": "email"
     }
   }
 }
