@@ -1,11 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "home_page_buttons",
+  "kind": "singleType",
+  "collectionName": "simple_and_easy_offsets",
   "info": {
-    "singularName": "home-page-button",
-    "pluralName": "home-page-buttons",
-    "displayName": "HomePageButton",
-    "description": ""
+    "singularName": "simple-and-easy-offset",
+    "pluralName": "simple-and-easy-offsets",
+    "displayName": "SimpleAndEasyOffset"
   },
   "options": {
     "draftAndPublish": true
@@ -17,20 +16,20 @@
   },
   "attributes": {
     "Title": {
-      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
-    "Link": {
-      "type": "string",
+    "Content": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
-      }
+      },
+      "type": "richtext"
     }
   }
 }
