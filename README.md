@@ -61,7 +61,3 @@ npm run develop
 
 - [Resource center](https://strapi.io/resource-center) - Strapi resource center.
 - [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-
-# Testing Lines
-Test 1
-
