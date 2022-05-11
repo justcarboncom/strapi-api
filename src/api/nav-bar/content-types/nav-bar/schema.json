@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "nav_bars",
   "info": {
     "singularName": "nav-bar",
@@ -15,7 +15,7 @@
     }
   },
   "attributes": {
-    "heading": {
+    "Documents": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -23,7 +23,47 @@
       },
       "type": "string"
     },
-    "Link": {
+    "Newsroom": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Team": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "WhitePaper": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "FAQ": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Offset": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Explorer": {
       "pluginOptions": {
         "i18n": {
           "localized": true
