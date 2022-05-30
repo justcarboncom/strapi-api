@@ -16,20 +16,13 @@
     }
   },
   "attributes": {
-    "WhitePaper": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+    "Link": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     }
   }
 }
