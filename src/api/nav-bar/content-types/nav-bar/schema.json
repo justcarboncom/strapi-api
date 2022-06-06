@@ -4,7 +4,8 @@
   "info": {
     "singularName": "nav-bar",
     "pluralName": "nav-bars",
-    "displayName": "NavBar"
+    "displayName": "NavBar",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -70,6 +71,51 @@
         }
       },
       "type": "string"
+    },
+    "AboutUs": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "AboutUs"
+    },
+    "OurStory": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "OurStory"
+    },
+    "OurViews": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "OurViews"
+    },
+    "HowItWorks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "How It Works"
+    },
+    "CreditConversion": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Credit Conversion"
     }
   }
 }
