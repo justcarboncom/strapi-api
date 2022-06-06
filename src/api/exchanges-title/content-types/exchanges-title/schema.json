@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "exchanges_titles",
+  "info": {
+    "singularName": "exchanges-title",
+    "pluralName": "exchanges-titles",
+    "displayName": "ExchangesTitle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "news_rooms",
+  "collectionName": "blogs",
   "info": {
-    "singularName": "news-room",
-    "pluralName": "news-rooms",
-    "displayName": "NewsRoom",
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
     "description": ""
   },
   "options": {
@@ -13,16 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "string",
-      "pluginOptions": {}
+      "type": "string"
     },
     "Content": {
-      "type": "richtext",
-      "pluginOptions": {}
+      "type": "richtext"
     },
     "Link": {
-      "type": "string",
-      "pluginOptions": {}
+      "type": "string"
     },
     "Image": {
       "type": "media",
