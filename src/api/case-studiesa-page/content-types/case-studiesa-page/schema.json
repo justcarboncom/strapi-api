@@ -1,0 +1,247 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studiesa_pages",
+  "info": {
+    "singularName": "case-studiesa-page",
+    "pluralName": "case-studiesa-pages",
+    "displayName": "CaseStudiesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "case_study_page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::case-study.case-study",
+      "inversedBy": "case_study"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleBackgroundImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleContent": {
+      "type": "richtext"
+    },
+    "VideoTitle": {
+      "type": "string"
+    },
+    "VideoLink": {
+      "type": "string"
+    },
+    "TotalBufferPoolCredits": {
+      "type": "string"
+    },
+    "VCSProjectType": {
+      "type": "string"
+    },
+    "AFOLUactivity": {
+      "type": "string"
+    },
+    "CreditingPeriodTerm": {
+      "type": "string"
+    },
+    "ProjectsAimsTitle": {
+      "type": "string"
+    },
+    "Aim1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleAim1": {
+      "type": "string"
+    },
+    "TitleAim2": {
+      "type": "string"
+    },
+    "Aim2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Aim3": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleAim3": {
+      "type": "string"
+    },
+    "JustcarbonTokenTitle": {
+      "type": "string"
+    },
+    "JustcarbonTokenContent": {
+      "type": "richtext"
+    },
+    "AreaTitle": {
+      "type": "string"
+    },
+    "AreaImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AreaContent": {
+      "type": "richtext"
+    },
+    "ProblemTitle": {
+      "type": "string"
+    },
+    "ProblemContent": {
+      "type": "richtext"
+    },
+    "ProblemBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ProjectImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ProjectTitle": {
+      "type": "string"
+    },
+    "ProjectContent": {
+      "type": "richtext"
+    },
+    "ProtectingTitle": {
+      "type": "string"
+    },
+    "ProtectingImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "List": {
+      "displayName": "List",
+      "type": "component",
+      "repeatable": false,
+      "component": "list.list"
+    },
+    "CommunitiesTitle": {
+      "type": "string"
+    },
+    "CommunitiesContent": {
+      "type": "richtext"
+    },
+    "CommunitiesImg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DeforestationBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DeforestationImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DeforestationTitle": {
+      "type": "string"
+    },
+    "DeforestationContent": {
+      "type": "richtext"
+    },
+    "ProjectDeveloper": {
+      "type": "string"
+    },
+    "ProjectStart": {
+      "type": "string"
+    },
+    "ProjectSize": {
+      "type": "string"
+    },
+    "EmissionReductions": {
+      "type": "string"
+    }
+  }
+}

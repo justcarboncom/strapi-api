@@ -65,37 +65,11 @@
       "type": "boolean",
       "default": false
     },
-    "ProjectDeveloper": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
-    },
-    "ProjectStart": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
-    },
-    "ProjectSize": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
-    },
-    "EmissionReductions": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
+    "case_study": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::case-studiesa-page.case-studiesa-page",
+      "mappedBy": "case_study_page"
     }
   }
 }
