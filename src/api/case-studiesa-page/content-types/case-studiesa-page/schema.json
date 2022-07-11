@@ -97,7 +97,7 @@
     },
     "Aim3": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -111,9 +111,6 @@
     },
     "JustcarbonTokenTitle": {
       "type": "string"
-    },
-    "JustcarbonTokenContent": {
-      "type": "richtext"
     },
     "AreaTitle": {
       "type": "string"
@@ -180,12 +177,6 @@
         "audios"
       ]
     },
-    "List": {
-      "displayName": "List",
-      "type": "component",
-      "repeatable": false,
-      "component": "list.list"
-    },
     "CommunitiesTitle": {
       "type": "string"
     },
@@ -194,7 +185,7 @@
     },
     "CommunitiesImg": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -242,6 +233,18 @@
     },
     "EmissionReductions": {
       "type": "string"
+    },
+    "ProtectingContentLeft": {
+      "type": "richtext"
+    },
+    "ProtectingContentRight": {
+      "type": "richtext"
+    },
+    "JustcarbonTokenContentLeft": {
+      "type": "richtext"
+    },
+    "JustcarbonTokenContentRight": {
+      "type": "richtext"
     }
   }
 }
