@@ -4,7 +4,8 @@
   "info": {
     "singularName": "offset-page",
     "pluralName": "offset-pages",
-    "displayName": "OffsetPage"
+    "displayName": "OffsetPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,48 @@
         }
       },
       "type": "richtext"
+    },
+    "StatisticsButton": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "View statistics"
+    },
+    "CalculatorTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Carbon Calculator"
+    },
+    "CalculatorContent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "CalculatorButton": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "SignatureOfLogos": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
