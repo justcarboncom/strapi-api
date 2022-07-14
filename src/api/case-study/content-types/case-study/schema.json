@@ -70,6 +70,15 @@
       "relation": "oneToOne",
       "target": "api::case-studiesa-page.case-studiesa-page",
       "mappedBy": "case_study_page"
+    },
+    "Live": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }
