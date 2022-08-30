@@ -35,6 +35,12 @@
     "Date": {
       "type": "date",
       "required": true
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "blog"
     }
   }
 }
